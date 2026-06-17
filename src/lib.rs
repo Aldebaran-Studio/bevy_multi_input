@@ -22,7 +22,7 @@ impl Plugin for MultiInputPlugin {
 
 #[derive(Resource, Clone, Deref, DerefMut, Debug)]
 pub struct MultiInputDelay {
-    max: Duration,
+    pub max: Duration,
 }
 
 impl Default for MultiInputDelay {
